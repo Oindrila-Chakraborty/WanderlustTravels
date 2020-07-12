@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+   
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* header */
+header{
+    
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/896765/pexels-photo-896765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+
+}
+header .container{
+    width: 80%;
+    margin: 0 auto 30vh auto;
+    padding-top: 30vh;
+    text-align: center;
+    color: white;
+    
+    
+}
+header .container h1{
+    font-size: 5em;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 700;
+    
+    
+}
+header .container h2{
+    font-size: 3em;
+    color: #d48c06;
+    font-weight: 700;
+    font-family: 'Abril Fatface', cursive;
+}
+header .container p{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: 'Abril Fatface', cursive;
+}
+header .container .btn{
+    border: 2px solid white;
+    color: white;
+    font-size: bold;
+}
+header .container .btn:hover{
+    background-color: #d48c06;
+    color: #212120;
+    border: none;
+}
+/* welcome-section */
+#welcome .heading{
+    margin-top: 5%;
+}
+
+#welcome .heading p{
+    line-height: 2em;
+    text-align: justify;
+    color: #80807e;
+}
+
+/* destination-section */
+#destination{
+    margin-top: 15%;
+    background-color: rgba(212, 140, 6, 0.7);
+}
+#destination .heading h1{
+    letter-spacing: 4px;
+    color: white;
+    
+}
+#destination .heading h1 .orange{
+    color: #212120;
+}
+#destination .card-title{
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+/* carousel */
+#photos{
+    margin-top: 15%;
+}
+#photos .container{
+    padding: 0;
+    box-shadow: 3px 3px 14px #80807e;
+}
+#photos .heading p{  
+    color: #80807e;
+}
+
+
+
+/* reviews */
+#reviews .card{
+    background-color: #f7f7f7;
+}
+#reviews .card .card-text{
+    color: #80807e;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+/* common */
+#welcome, #reviews{
+    margin-top: 15%;
+    background-color: #f7f7f7;
+    
+}
+.heading h1{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+/* .burger div{
+    height: 2px;
+    width: 20px;
+    background-color: grey;
+    margin: 0.3em;
+
+} */
+
+@media screen and (max-width:768px){
+    
+    /* header */
+    header .container h1{
+        font-size: 3em;
+    
+    }
+    header .container h2{
+        font-size: 2em;
+    
+    }
+    /* heading of sections */
+    .heading h1{
+        font-size: 2em;
+    }
+    
+    
+}
+
+    /* .toggle .line1{
+        transform: rotate(-45deg) translate(-5px,6px);
+    }
+    .toggle .line2{
+        opacity: 0;
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px,-6px);
+    } */

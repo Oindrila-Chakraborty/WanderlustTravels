@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+   
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+/*header*/
+header{
+    
+    height: 60vh;
+    background-image: url(https://images.pexels.com/photos/317385/pexels-photo-317385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header .container{
+    width: 80%;
+    margin: 0 auto 20vh auto;
+    padding-top: 20vh;
+    text-align: center;
+    color: white;
+    
+    
+}
+header .container h1{
+    font-size: 5em;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 700;
+}
+header .container p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Abril Fatface', cursive;
+
+}
+header .container .btn{
+    border: 2px solid white;
+    color: white;
+    font-size: bold;
+}
+header .container .btn:hover{
+    background-color: #d48c06;
+    color: #212120;
+    border: none;
+}
+#contact{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 10em;
+    width: 100%;
+    
+}
+#contact .form{
+    box-shadow: 2px 2px 10px #c9c9c7;
+    
+}
+#contact .address{
+    margin-left: 5em;
+    
+}
+#contact .form form input{
+    width: 80%;
+    outline: none;
+    border: 2px solid #c9c9c7;
+    border-radius: 5px;
+}
+#contact .form form textarea{
+    height: 15em;
+    width: 100%;
+    outline: none;
+    padding: 1em;
+    border: 2px solid #c9c9c7;
+}
+#contact .form form label{
+    font-weight: bold;
+    color: #c9c9c7;
+}
+#contact form .btn{
+    border: 2px solid #c9c9c7;
+    color: #c9c9c7;
+}
+#contact form .btn:hover{
+    background-color: #d48c06;
+    border: 2px solid #d48c06;
+    color: black;
+}
+#contact .address p{
+    color: #d48c06;
+    letter-spacing: 5px;
+}
+#contact .address h4{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2em;
+}
+/* map */
+#map{
+    margin-top: 10%;
+    background-color:#f7f7f7;
+}
+#map .container{
+    height: 500px;
+    width: 100%;
+}
+.heading {
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+    color: #212120;
+}
+iframe{
+    width:100%;
+    height: 100%;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:100%;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}
+@media screen and (min-width: 770px) and (max-width: 1024px){
+    #contact{
+        display: flex;
+        flex-direction: column;
+        padding: 2em 0;
+    }
+    #contact .address{
+        margin-left: 3em;
+        
+    }
+    
+    #contact .address h4{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    #contact .address h4{
+        font-size: 1.5em;
+    }
+   
+}
+@media screen and (max-width:768px){
+    
+    /* header */
+    header .container{
+        padding-top: 15vh;
+    }
+    header .container h1{
+        font-size: 3em;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        padding: 2em 0;
+    }
+    
+    #contact .form{
+        width: 90%;
+    }
+    #contact .form form input{
+        width: 70%;
+    }
+    
+    #contact .address{
+        margin-left: 0;
+        margin-top: 3em;
+    }
+    #contact .address h4{
+        font-size: 1.2em;
+    }
+    .heading{
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+   
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+/* header */
+header{
+    
+    height: 60vh;
+    background-image: url(https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header .container{
+    width: 80%;
+    margin: 0 auto 20vh auto;
+    padding-top: 20vh;
+    text-align: center;
+    color: white;
+    
+    
+}
+header .container h1{
+    font-size: 5em;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 700;
+    
+    
+}
+header .container p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Abril Fatface', cursive;
+
+}
+header .container .btn{
+    border: 2px solid white;
+    color: white;
+    font-size: bold;
+}
+header .container .btn:hover{
+    background-color: #d48c06;
+    color: #212120;
+    border: none;
+}
+
+/* our-story section */
+#our-story{
+    margin-top: 5%;
+}
+#our-story .heading{
+    color: #d48c06;
+}
+
+#our-story .heading p{
+    line-height: 2em;
+    text-align: justify;
+    color: #80807e;
+}
+.heading h1{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* our-team section */
+#our-team{
+    background-color: #f7f7f7;
+    margin-top:15%;
+}
+#our-team .container .name h4{
+    font-family: 'Abril Fatface', cursive;
+}
+#our-team .container .name p{
+    font-style: italic;
+    color: #80807e;
+}
+/* parallax-section */
+#parallax-section{
+    margin-top: 15%;
+    background-image: url(https://images.pexels.com/photos/3220731/pexels-photo-3220731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#parallax-section .join-us{
+    padding: 10em;
+    text-align: center;
+    color: white;
+}
+#parallax-section .join-us h2{
+    font-weight: bold;
+
+}
+#parallax-section .join-us button{
+    background-color: #d48c06;
+    color: white;
+}
+#parallax-section .join-us button:hover{
+    background-color: #cf8804;
+}
+@media screen and (max-width:768px){
+    
+    /* header */
+    header .container{
+        padding-top: 15vh;
+    }
+    header .container h1{
+        font-size: 3em;
+    }
+    /* heading of sections */
+    .heading h1{
+        font-size: 2em;
+    }
+    /*parallax-section*/
+    #parallax-section .join-us{
+        padding: 3em;
+    }
+    
+}
