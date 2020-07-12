@@ -57,10 +57,12 @@ header .container .btn:hover{
 }
 #contact .form{
     box-shadow: 2px 2px 10px #c9c9c7;
+    width: 60%;
     
 }
 #contact .address{
     margin-left: 5em;
+    width: 40%;
     
 }
 #contact .form form input{
@@ -143,6 +145,14 @@ iframe{
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px){
+    #contact .form{
+        width: 70%;
+        
+    }
+    #contact .address{
+        width: 30%;
+        
+    }
     #contact .address h4{
         font-size: 1.5em;
     }
